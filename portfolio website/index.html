@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .logoimage {
+        height: 30px;
+        width: 30px;
+        margin-left: 35%;
+        padding: 10%;
+    }
+
+    .homeimage {
+        height: 500px;
+    }
+</style>
+
+<body>
+    <header>
+        <a href="#" class="logo">RAMAN<span>KUMAR</span></a>
+        <ul class="navbar" type="none">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <secction class="home" id="home">
+        <div class="social">
+            <a href="#"><img src="./images/facebook.png" alt="facebook" class="logoimage"></a>
+            <a href="#"><img src="./images/linkdin.png" alt="linkdin" class="logoimage"></a>
+            <a href="#"><img src="./images/instagram.png" alt="instagram" class="logoimage"></a>
+        </div>
+        <div class="homeimg">
+            <img src="./images/student3.png" alt="image" class="homeimage">
+        </div>
+        <div class="hometext">
+            <span>Hello, I am</span>
+            <h1>Raman Kumar</h1>
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Odit optio vitae voluptate. Dolor, sit animi
+                harum assumenda provident veritatis alias et quibusdam!
+                Tempora ea, impedit qui fugiat assumenda soluta
+                officiis, quisquam ?</p>
+            <a href="./images/Resume.pdf" download class="btn">Resume Download</a>
+        </div>
+    </secction>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="aboutcontainer">
+            <div class="aboutimg">
+                <img src="./images/student2.png" alt="image">
+            </div>
+            <div class="abouttext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quae officiis aspernatur! Commodi
+                    repellat facilis beatae dolorem, tempora maiores nobis.</p>
+                <div class="information">
+                    <div class="infobox">
+                        <ul>
+                            <li><span>Name</span></li>
+                        </ul>
+                    </div>
+                    <div class="infobox">
+                        <ul>
+                            <li><span>9025345235</span></li>
+                        </ul>
+                    </div>
+                    <div class="infobox">
+                        <ul>
+                            <li><span>xyz@gmail.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="Resume.pdf" class="btn">Resume Download</a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skillscontainar">
+            <div class="bars">
+                <div class="barsbox">
+                    <h3>HTML</h3>
+                    <span>95%</span>
+                    <div class="lightbar"></div>
+                    <div class="percentbar htmlbar"></div>
+                </div>
+                <div class="barsbox">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                    <div class="lightbar"></div>
+                    <div class="percentbar cssbar"></div>
+                </div>
+                <div class="barsbox">
+                    <h3>Javascript</h3>
+                    <span>60%</span>
+                    <div class="lightbar"></div>
+                    <div class="percentbar jsbar"></div>
+                </div>
+                <div class="barsbox">
+                    <h3>Python</h3>
+                    <span>90%</span>
+                    <div class="lightbar"></div>
+                    <div class="percentbar pybar"></div>
+                </div>
+            </div>
+            <div id="services"></div>
+        </div>
+    </section>
+    <div class="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="servicescontent">
+            <div class="servicesbox">
+                <img src="./images/code.png" alt="Code" class="servicelogo">
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="servicesbox">
+                <img src="./images/python.png" alt="Python" class="servicelogo">
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="servicesbox">
+                <img src="./images/java.png" alt="Java" class="servicelogo">
+                <h3>Java Developer</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="servicesbox">
+                <img src="./images/android.png" alt="Android" class="servicelogo">
+                <h3>App Development</h3>
+                <a href="#">Learn More</a>
+                <div id="contact"></div>
+            </div>
+        </div>
+    </div>
+     <div class="contact">
+        <div class="heading">
+            <h2>Contect</h2>
+        </div>
+        <div class="contactform">
+            <form action="#">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="xyz@gmail.com">
+                <textarea cols="30" rows="10" placeholder="Write Message Here"></textarea>
+                <input type="button" value="Send" class="contactbutton">
+            </form>
+        </div>
+     </div>
+    <div class="copyright">
+        &#169 RK | All Right Resserved
+    </div>
+</body>
+</html>
